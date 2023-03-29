@@ -4,7 +4,7 @@ import time
 import telegram
 
 # Setup Telegram Bot
-bot = telegram.Bot(token='1620955534:AAF_IqirCsaLxC_yudC5FC6LAfwzAoBq0ZU')
+bot = telegram.Bot(token='')
 chat_id = '1123870739'
 
 # Set up web scraper

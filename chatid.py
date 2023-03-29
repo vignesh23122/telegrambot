@@ -2,7 +2,7 @@ import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler,filters
 
 # Replace 'your_bot_token' with your own bot token
-bot = telegram.Bot(token='1620955534:AAF_IqirCsaLxC_yudC5FC6LAfwzAoBq0ZU')
+bot = telegram.Bot(token='')
 
 def start(update, context):
     """Starts the bot and sends a welcome message"""
@@ -15,7 +15,7 @@ def get_chat_id(update, context):
 
 def main():
     """Starts the bot"""
-    updater = Updater('1620955534:AAF_IqirCsaLxC_yudC5FC6LAfwzAoBq0ZU',True)
+    updater = Updater('',True)
     dp = updater.dispatcher
 
     # Add handlers for commands
